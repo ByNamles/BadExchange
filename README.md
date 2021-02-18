@@ -1,2 +1,3 @@
 # Exchange
- simultaneous exchange experience
+ Simultaneous exchange experience
+Note: Need for EconomyAPI
