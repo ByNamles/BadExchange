@@ -38,7 +38,7 @@ class BuyyingForm extends CustomForm
         }
 
             parent::__construct($this->type . " Alış", [
-                new Label("element0", "Dolar Alış Fiyatı: " . $this->jsonAPI->getTyped($this->type, $this->buy_or_sell) . "\n"),
+                new Label("element0", "$type Alış Fiyatı: " . $this->jsonAPI->getTyped($this->type, $this->buy_or_sell) . "\n"),
                 new Label("element1", "Alabileceğin $type miktarı: " . $maks . "\n"),
                 new Label("element2","Not: Veriler Türkiye Döziz Kuruyla aynıdır."),
                 new Input("element3", "Alıcağın $type miktarı: ", "örn:3")
